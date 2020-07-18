@@ -2,9 +2,19 @@
 <!-- saved from url=(0056)file:///C:/Users/RBK/Desktop/final-project/delivery.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<title>Delivery</title>
-	    <link rel="stylesheet" type="text/css" href="./login_files/apz.css">
+	    <link rel="stylesheet" type="text/css" href=" zak.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+
+
+
+
+
 	   <nav>
 
          <label class="logo"><a href="file:///C:/Users/RBK/Desktop/final-project/apz.html">Marina Restaurant</a></label>
@@ -12,10 +22,41 @@
              <li><a href="file:///C:/Users/RBK/Desktop/final-project/menue.html">Menu</a></li> 
              <li><a href="file:///C:/Users/RBK/Desktop/final-project/location.html">Location</a></li>
              <li><a href="file:///C:/Users/RBK/Desktop/final-project/contact.html">Contact</a></li>  
+             <li><a href="file:///C:/Users/RBK/Desktop/final-project/signIN.html ">Sign UP</a></li>
              <li><a href="file:///C:/Users/RBK/Desktop/final-project/delivery.html">Login</a></li> 
           </ul>
         
          </nav>
+
+
+<form  style="border:1px solid #ccc">
+    <h1>Login:</h1>
+<div class="Login">
+    <label id="zak">Username</label>
+    <input type="text" placeholder="Username" id="user1" >
+    <label id="zak2">Password</label>
+    <input type="Password" placeholder="Password" id="Password1">
+ </div>
+ <div class="zak3">
+<button type="button" class="zak5">Login</button>
+<script >
+  $("#zak5").on("click",function(){
+var username=localStorage.getItem('username').val()
+var Password=localStorage.getItem('pass').val()
+if(username===$("#user1").val()&&Password===$("#Password1").val()){
+    alert("welcome")
+}
+    })
+</script>
+
+
+
+
+
+
+
+
+
 
 
 </body></html>

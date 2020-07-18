@@ -78,6 +78,7 @@ a.active,a:hover{
     letter-spacing: 3px;
     padding: 75px;
     background-color: #00000070;
+    color:white;
 }
 
 ul{
@@ -223,7 +224,35 @@ input[type=submit]:hover {
 }
 h1 {
   margin: 22px;
+
+  color:black;
+    text-transform: uppercase;
+    font-weight: 300px;
 }
 #drink {
   text-align: center;
+    color: white;
+
+}
+
+
+
+p{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 300px;
+}
+.sign{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+}
+#ss{
+  color: white;
 }
